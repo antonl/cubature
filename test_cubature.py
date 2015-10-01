@@ -1,5 +1,4 @@
 from __future__ import division
-import pytest
 
 import cubature._test_integrands as ti
 from cubature import cubature

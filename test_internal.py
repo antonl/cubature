@@ -1,7 +1,6 @@
-import pytest
+from __future__ import division
 from cubature._cubature import Integrand
 import numpy as np
-import math
 
 def test_call_1arg():
     def func(x, a, b, c, kw1=True, kw2=None):
